@@ -1,8 +1,3 @@
-# dcmjs
-JavaScript implementation of DICOM manipulation
-
-This code is an outgrowth of several efforts to implement web applications for medical imaging.
-
 **Note: this code is a work-in-progress and should not be used for production or clinical purposes**
 
 See [live examples here](https://dcmjs-org.github.io/dcmjs/examples/)
@@ -51,7 +46,7 @@ While this was useful and powerful, it was heavyweight for typical web usage.
 * 2016
   * A [Medical Imaging Web Appliction meeting at Stanford](http://qiicr.org/web/outreach/Medical-Imaging-Web-Apps/) and
 [follow-on hackfest in Boston](http://qiicr.org/web/outreach/MIWS-hackfest/) helped elaborate the needs for manipulating DICOM in pure Javascript.
-  * Based on [DICOM Part 10 read/write code](https://github.com/OHIF/dicom-dimse) initiated by Weiwei Wu of [OHIF](http://ohif.org), Steve Pieper [developed further features](https://github.com/pieper/sites/tree/gh-pages/dcmio) and 
+  * Based on [DICOM Part 10 read/write code](https://github.com/OHIF/dicom-dimse) initiated by Weiwei Wu of [OHIF](http://ohif.org), Steve Pieper [developed further features](https://github.com/pieper/sites/tree/gh-pages/dcmio) and
 [examples of creating multiframe and segmentation objects](https://github.com/pieper/sites/tree/gh-pages/DICOMzero) discussed with
 the community at RSNA
 * 2017
@@ -59,7 +54,7 @@ the community at RSNA
  with the community to define some example use cases to mix the pure JavaScript DICOM code with Cornerstone and [CornerstoneTools](https://github.com/chafey/cornerstoneTools).
  * 2018
 	 * Work continues to develop SR and SEG support to [OHIFViewer](http://ohif.org) allow interoperability with [DICOM4QI](https://legacy.gitbook.com/book/qiicr/dicom4qi/details)
- 
+
  # Support
  The developers gratefully acknowledge their reseach support:
  * Open Health Imaging Foundation ([OHIF](http://ohif.org))
